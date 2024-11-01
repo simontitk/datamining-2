@@ -23,9 +23,20 @@ EMPWHENWRK_A - Last time worked
 EMPWKHRS3_A - Hours worked per week (topcoded for public use)
 EMPWRKFT1_A - Usually work +35 hours per week
 CEVOLUN1_A - Volunteer for organization or association
+INCTOTAL_A - Possibly the total income
 INCWRKO_A - Income from wages
+INCINTER_A - Income from accounts
+INCSSRR_A - Income from SS/Railroad Retirement
+INCWELF_A - Income from public assistance
+INCRETIRE_A - Income from retirement
+INCOTHR_A - Income from other sources
 INCSSISSDI_A - Family income from SSDI
+INCTCFLG_A - Sample adult family income top-code flag
 HOUYRSLIV_A - Length of time in house or apartment
 HOUTENURE_A - Residence owned or rented
 HOUGVASST_A - Paying lower rent
 HOUSECOST_A - Had trouble paying for housing
+REGION - Household region
+PCNTKIDS_A - Number of children in Sample Adult family, top-coded 3+ 
+SAPARENTSC_A - Sample adult relationship to sample child
+PARSTAT_A - Parental Status of sample adult 

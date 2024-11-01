@@ -1,0 +1,31 @@
+WTAF_A - Weight - Final Annual
+SEX_A -  Sex of Sample Adult
+AGEP_A - Age of SA (top coded)
+AGE65 - Age 65 or older
+EDUCP_A - Educational level of sample adult
+PHSTAT_A - General health status
+LSATIS4_A - Life satisfaction/dissatisfaction
+PREGNOW_A - Pregnant now
+HEIGHTTC_A - Height without shoes (inches), Public Use
+WEIGHTLBTC_A - Weight without shoes (pounds), Public Use
+BMICAT_A - Categorical Body Mass Index, Public Use
+PAYBLL12M_A - Problems paying medical bills, past 12m
+PAYNOBLLNW_A - Unable to pay medical bills
+PAYWORRY_A - Get sick or have accident, worry about paying medical 
+bills
+ANXFREQ_A - How often feel worried, nervous, or anxious
+ORIENT_A - Sexual orientation
+MARITAL_A - Sample adult's current marital status
+AFVET_A - Ever serve active duty military
+NATUSBORN_A - Born in U.S. or U.S. territory
+YRSINUS_A - Years that sample adult has been in the United States
+EMPWHENWRK_A - Last time worked
+EMPWKHRS3_A - Hours worked per week (topcoded for public use)
+EMPWRKFT1_A - Usually work +35 hours per week
+CEVOLUN1_A - Volunteer for organization or association
+INCWRKO_A - Income from wages
+INCSSISSDI_A - Family income from SSDI
+HOUYRSLIV_A - Length of time in house or apartment
+HOUTENURE_A - Residence owned or rented
+HOUGVASST_A - Paying lower rent
+HOUSECOST_A - Had trouble paying for housing

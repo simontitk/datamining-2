@@ -1,0 +1,32 @@
+Went to the pages of National Heath Interview Survey and got the raw data for adult participants 2023 year.
+Used the codebook to deciper encodings and to determine dependencies so that we do not make mistakes.
+codes ending with 96 not available ; 97 refuse; 98 not ascertained; 99 do not know
+
+Clustering:
+1.	Check if any weights are non valid (100-299 pounds)
+1.1 Drop all higher than 300
+2.	Check if any hights are not valid (59-76 inches)
+2.1 Drop all higher than 77
+3.	Check for gender 1 male; 2 female
+3.1	If 2 check for pregnancy 1-yes; 2-no; 7-refused; 8-not ascertained; 9 do not know
+3.1.1	Leave only 2 (no pregnant women)
+4.	Add BMI attribute to those that are left BMI = weight (lb) ÷ height2 (inches) * 703
+5. Check the distribution of BMI and use GMM (gautian mixture model) to cluster the BMI
+6. Validate it externally
+
+
+2.
+Multivariate regression model that predicts BMI based on a several independent variables:
+2.1 Age (valid 18-84). 97-refuse 98-not ascertained 99-do not know. Drop all higher than 84 as they are all included in a separate category. 
+2.2 Gender (valid 1-male; 2- female). 7-refused, 8-not ascertained, 9 -do not know. Drop all higher than 2.
+2.3 Educational level (valid 0/no school-10/doctoral). 97-99 not valid. Drop all higher than 10 or think of reclassification (no hs, hs, higher education)
+2.4 Current marital status 1-married, 2 cohabiting, 3 neither) 7-refused, 8-not ascert, 9-do not know. Drop all above 3, regroup to 1. Paired 2. Single
+2.5 Income from wages (1-yes 2-no) 7-refused, 8 na 9 dn. Drop all higher than 2.
+2.6 Residence owned or rented (1-yes, 2-renting, 3-ohers), but likely drop all higher than 2.
+2.7 Raising a minor (parental status of sample adult) (1-yes, 2-stepparent, 3-no) 9-uknnown. Drop 9, regroup 1 and 2.
+2.8 Depression frequency (1/daily-5/never). 7 ref, 8 na, 9 dn. Drop all higher than 5.
+            / or anxiety (1/daily-5/never). 7 ref, 8 na, 9 dn. Drop all higher than 5.
+
+
+
+

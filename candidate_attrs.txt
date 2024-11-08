@@ -1,42 +1,41 @@
-WTAF_A - Weight - Final Annual
-SEX_A -  Sex of Sample Adult
-AGEP_A - Age of SA (top coded)
-AGE65 - Age 65 or older
-EDUCP_A - Educational level of sample adult
-PHSTAT_A - General health status
-LSATIS4_A - Life satisfaction/dissatisfaction
-PREGNOW_A - Pregnant now
-HEIGHTTC_A - Height without shoes (inches), Public Use
-WEIGHTLBTC_A - Weight without shoes (pounds), Public Use
-BMICAT_A - Categorical Body Mass Index, Public Use
-PAYBLL12M_A - Problems paying medical bills, past 12m
-PAYNOBLLNW_A - Unable to pay medical bills
-PAYWORRY_A - Get sick or have accident, worry about paying medical 
-bills
-ANXFREQ_A - How often feel worried, nervous, or anxious
-ORIENT_A - Sexual orientation
-MARITAL_A - Sample adult's current marital status
-AFVET_A - Ever serve active duty military
-NATUSBORN_A - Born in U.S. or U.S. territory
-YRSINUS_A - Years that sample adult has been in the United States
-EMPWHENWRK_A - Last time worked
-EMPWKHRS3_A - Hours worked per week (topcoded for public use)
-EMPWRKFT1_A - Usually work +35 hours per week
-CEVOLUN1_A - Volunteer for organization or association
-INCTOTAL_A - Possibly the total income
-INCWRKO_A - Income from wages
-INCINTER_A - Income from accounts
-INCSSRR_A - Income from SS/Railroad Retirement
-INCWELF_A - Income from public assistance
-INCRETIRE_A - Income from retirement
-INCOTHR_A - Income from other sources
-INCSSISSDI_A - Family income from SSDI
-INCTCFLG_A - Sample adult family income top-code flag
-HOUYRSLIV_A - Length of time in house or apartment
-HOUTENURE_A - Residence owned or rented
-HOUGVASST_A - Paying lower rent
-HOUSECOST_A - Had trouble paying for housing
-REGION - Household region
-PCNTKIDS_A - Number of children in Sample Adult family, top-coded 3+ 
-SAPARENTSC_A - Sample adult relationship to sample child
-PARSTAT_A - Parental Status of sample adult 
+WTAF_A - Weight - Final Annual --Useless, not in dataset
+SEX_A -  Sex of Sample Adult --page 17 of PUC
+AGEP_A - Age of SA (top coded) --page 18 of PUC
+AGE65 - Age 65 or older --Useless, missing values
+EDUCP_A - Educational level of sample adult --page 25 of PUC
+PHSTAT_A - General health status --page 33 of PUC
+LSATIS4_A - Life satisfaction/dissatisfaction --page 34 of PUC
+PREGNOW_A - Pregnant now --page 153 of PUC
+HEIGHTTC_A - Height without shoes (inches), Public Use --page 154 of PUC 
+WEIGHTLBTC_A - Weight without shoes (pounds), Public Use --page 155 of PUC 
+BMICAT_A - Categorical Body Mass Index, Public Use --page 156 of PUC
+PAYBLL12M_A - Problems paying medical bills, past 12m --page 312 of PUC
+PAYNOBLLNW_A - Unable to pay medical bills --Useless, missing values
+PAYWORRY_A - Get sick or have accident, worry about paying medical bills --page 314 of PUC
+ANXFREQ_A - How often feel worried, nervous, or anxious --page 420 of PUC
+ORIENT_A - Sexual orientation --page 553 of PUC
+MARITAL_A - Sample adult's current marital status --page 554 of PUC
+AFVET_A - Ever serve active duty military --page 574 of PUC
+NATUSBORN_A - Born in U.S. or U.S. territory --page 580 of PUC
+YRSINUS_A - Years that sample adult has been in the United States --page 581 of PUC
+EMPWHENWRK_A - Last time worked --page 593 of PUC, 17523 missing
+EMPWKHRS3_A - Hours worked per week (topcoded for public use) --page 596 of PUC, 13167 missing
+EMPWRKFT1_A - Usually work +35 hours per week --page 597 of PUC
+CEVOLUN1_A - Volunteer for organization or association --page 613 of PUC
+INCTOTAL_A - Possibly the total income --Useless, not in dataset
+INCWRKO_A - Income from wages --page 617 from PUC, yes/no
+INCINTER_A - Income from accounts --page 618 from PUC, yes/no
+INCSSRR_A - Income from SS/Railroad Retirement --page 619 from PUC, yes/no
+INCWELF_A - Income from public assistance --page 623 of PUC, yes/no
+INCRETIRE_A - Income from retirement --page 624 of PUC, yes/no
+INCOTHR_A - Income from other sources --page 625 of PUC, yes/no
+INCSSISSDI_A - Family income from SSDI --page 620 from PUC, yes/no
+INCTCFLG_A - Sample adult family income top-code flag --Useless, restricted
+HOUYRSLIV_A - Length of time in house or apartment --page 647 of PUC
+HOUTENURE_A - Residence owned or rented --page 648 of PUC
+HOUGVASST_A - Paying lower rent --page 649 of PUC, 21110 missing
+HOUSECOST_A - Had trouble paying for housing --page 650 of PUC, yes/no
+REGION - Household region --page 6 of PUC
+PCNTKIDS_A - Number of children in Sample Adult family, top-coded 3+ --page 29 of PUC
+SAPARENTSC_A - Sample adult relationship to sample child --page 572 of PUC
+PARSTAT_A - Parental Status of sample adult --page 573 of PUC

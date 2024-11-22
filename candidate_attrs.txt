@@ -1,3 +1,4 @@
+DEPFREQ_A - How frequently depressed --page 423
 WTAF_A - Weight - Final Annual --Useless, not in dataset
 SEX_A -  Sex of Sample Adult --page 17 of PUC
 AGEP_A - Age of SA (top coded) --page 18 of PUC

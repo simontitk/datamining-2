@@ -27,6 +27,10 @@ Multivariate regression model that predicts BMI based on a several independent v
 2.8 Depression frequency (1/daily-5/never). 7 ref, 8 na, 9 dn. Drop all higher than 5.
             / or anxiety (1/daily-5/never). 7 ref, 8 na, 9 dn. Drop all higher than 5.
 
+urban_rural keep all classes
+region all classes
+canev_a cancer drop all above 2, 1 stays 1(yes), 2 becomes 0 (no)
+
 
 
 

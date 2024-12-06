@@ -3,3 +3,5 @@ matplotlib
 scikit-learn
 ipykernel
 jupyter
+xgboost
+imblearn

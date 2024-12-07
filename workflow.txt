@@ -29,7 +29,11 @@ Multivariate regression model that predicts BMI based on a several independent v
 
 urban_rural keep all classes
 region all classes
-canev_a cancer drop all above 2, 1 stays 1(yes), 2 becomes 0 (no)
+canev_a cancer drop all above 2, 1 becomes True (yes), 2 becomes False (no)
+HYPEV_A ever been told hypertension same as cancer
+CHLEV_A ever been told you have cholesterol same as cancer
+RACEALLP_A race drop all bigger than 6
+life sat 4 put together with 3 so we now have very sattisfied, satisfied and dissatisfied groups
 
 
 

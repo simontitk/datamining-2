@@ -1,5 +1,9 @@
+numpy
 pandas
 matplotlib
 scikit-learn
+seaborn
+kneed
+scipy
 ipykernel
 jupyter
